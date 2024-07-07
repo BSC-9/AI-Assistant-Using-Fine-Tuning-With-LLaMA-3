@@ -1,3 +1,6 @@
+pip install streamlit "unsloth[colab-new] @ git+https://github.com/unslothai/unsloth.git"
+pip install --no-deps xformers "trl<0.9.0" peft accelerate bitsandbytes
+
 import streamlit as st
 import torch
 from unsloth import FastLanguageModel
