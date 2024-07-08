@@ -6,8 +6,8 @@ After clicking the link, ensure you set the runtime to T4 GPU. The minimum requi
 
 # Step 2
 When you reach the last cell, it will generate a link. Click on the generated URL:
-npx: installed 22 in 3.922s
-your url is: https://url
+"npx: installed 22 in 3.922s
+your url is: https://url"
 
 
 ## Step 3
