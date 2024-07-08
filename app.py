@@ -13,7 +13,6 @@ max_seq_length = 2048
 dtype = None
 load_in_4bit = True
 
-
 alpaca_prompt = """Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.
 
 ### Instruction:
@@ -25,7 +24,6 @@ alpaca_prompt = """Below is an instruction that describes a task, paired with an
 ### Response:
 {}"""
 
-# Load FastLanguageModel
 @st.cache_resource(show_spinner=False)
 def load_model():
     model, tokenizer = FastLanguageModel.from_pretrained(
@@ -41,13 +39,13 @@ def load_model():
 
 model, tokenizer, device = load_model()
 
-st.title("Chef Assistant Recipe Generator")
-
 name = st.text_input("Enter your name", "Chef")
-instruction = st.text_input("Instruction", f"{name}, you are a professional chef assistant. Make a dish by firstly presenting it, then listing the ingredients and finally the recipe step by step in bullet points under the following input requirements.")
+st.title(f"{name}'s Assistant Recipe Generator")
+instruction = st.text_input("Instruction", "You are a professional chef assistant. Make a dish by firstly presenting it, then listing the ingredients and finally the recipe step by step in bullet points under the following input requirements.")
 requirements = st.text_input("Requirements", "Requires 60 minutes preparation or less and it contains at least this ingredients chicken biryani")
 
 if st.button("Generate Recipe"):
+    # Generate the recipe
     prompt = alpaca_prompt.format(instruction, requirements, "")
     inputs = tokenizer([prompt], return_tensors="pt").to(device)
 
