@@ -1,4 +1,4 @@
-# Cooking
+# AI Cooking Assistant
 To run the code, click on this [Colab link](https://colab.research.google.com/drive/1mzdewgIJ-I1WT6ACz8OtnTdf0I4FzgZU?usp=sharing).
 
 # Step 1
