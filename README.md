@@ -1,19 +1,18 @@
 # Cooking
+To run the code, click on this [Colab link](https://colab.research.google.com/drive/1mzdewgIJ-I1WT6ACz8OtnTdf0I4FzgZU?usp=sharing).
+
+# Step 1
+After clicking the link, ensure you set the runtime to T4 GPU. The minimum requirement is a CUDA-enabled environment with a GPU of at least 6.2.
+
+# Step 2
+When you reach the last cell, it will generate a link. Click on the generated URL:
+npx: installed 22 in 3.922s
+your url is: https://url
 
 
-Click on this colab link to directly run the code: "https://colab.research.google.com/drive/1mzdewgIJ-I1WT6ACz8OtnTdf0I4FzgZU?usp=sharing"
+## Step 3
+From the Colab output, you will see IPv4 or IPv6 addresses generated like:
+External URL: http://xx.xx.xx.xxx:yyyy
+Enter only the digits from the x's in this format: `xx.xx.xx.xxx`.
 
-# Step-1 
-After Clicking the link, Make sure to set the runtime to T4 Gpu as it requires minimum of 6.2 GPU and it is a CUDA enabled safetsnors files being used and finetuned file of llama-3
-
-# Step-2
-After coming to the last cell it will generate a link and click on the
-   "npx: installed 22 in 3.922s
-    your url is: https://url"
-
-# Step-3
-You the the Ipv4 or Ipv6 addresses from the colab which is being genrated as
-"External URL: http://xx.xx.xx.xxx:yyyy"
-In the section just enter the digits from the x's place only "xx.xx.xx.xxx"
-
-# Step-4
+## Step 4
