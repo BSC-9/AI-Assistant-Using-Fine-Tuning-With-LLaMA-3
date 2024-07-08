@@ -1,0 +1,1 @@
+You can find the link to download the adapter_config.json and adapter_config.safetensors files of Fine Tuned with Llama 3 on Hugging Face at: https://huggingface.co/bsc-9/AI_Cooking_Kitchen/tree/main.
