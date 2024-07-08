@@ -1,5 +1,6 @@
 # AI Cooking Assistant
-To run the code, click on this [Colab link](https://colab.research.google.com/drive/1mzdewgIJ-I1WT6ACz8OtnTdf0I4FzgZU?usp=sharing).
+To view the Training code, click on this [Training Colab Link](https://colab.research.google.com/drive/1_5skvHU6SLixbYyrV6qJ7XAQsGvcAAwN?usp=sharing).
+To run the code, click on this [App Colab link](https://colab.research.google.com/drive/1mzdewgIJ-I1WT6ACz8OtnTdf0I4FzgZU?usp=sharing).
 
 # Step 1
 After clicking the link, ensure you set the runtime to T4 GPU. The minimum requirement is a CUDA-enabled environment with a GPU of at least 6.2GB RAM.
