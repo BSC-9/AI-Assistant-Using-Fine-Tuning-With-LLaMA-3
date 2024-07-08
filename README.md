@@ -1,7 +1,7 @@
 # Cooking
 
 
-Click on this colab link to directly run the code: ""
+Click on this colab link to directly run the code: "https://colab.research.google.com/drive/1mzdewgIJ-I1WT6ACz8OtnTdf0I4FzgZU?usp=sharing"
 
 # Step-1 
 After Clicking the link, Make sure to set the runtime to T4 Gpu as it requires minimum of 6.2 GPU and it is a CUDA enabled safetsnors files being used and finetuned file of llama-3
